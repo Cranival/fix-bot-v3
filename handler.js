@@ -726,7 +726,7 @@ export async function handler(chatUpdate) {
                         lelebakar: 0,
                         leleg: 0,
                         level: 0,
-                        limit: 100,
+                        limit: 10,
                         limitjoinfree: 1,
                         lion: 0,
                         lionexp: 0,
@@ -1312,7 +1312,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
   let godbye = 'https://telegra.ph/file/deaf59bc3e5216eaae814.jpg'
   conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://www.instagram.com/_ctzhid/',
+    mediaUrl: 'https://www.instagram.com/ai_khanip',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
