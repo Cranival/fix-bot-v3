@@ -10,7 +10,6 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	{title: "🌎 | Public", rowId: `${usedPrefix + command} public`},
 	{title: "🗣️ | Simi", rowId: `${usedPrefix + command} simi`},
   {title: "🗣️ | Auto Vn (simi-simi)", rowId: `${usedPrefix + command} autovn`},
-	{title: "🔞 | Nsfw", rowId: `${usedPrefix + command} nsfw`},
 	{title: "🌟 | PremNsfwChat", rowId: `${usedPrefix + command} premnsfwchat`},
 	{title: "🔗 | Antilink", rowId: `${usedPrefix + command} antilink`},
 	{title: "🚫 | Antidelete", rowId: `${usedPrefix + command} antidelete`},
