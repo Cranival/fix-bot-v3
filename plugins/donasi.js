@@ -20,7 +20,7 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/ai_khanip",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/ai_khanip", 
+    description: "https://telegra.ph/file/c73f47b440241b66cb9d3.jpg", 
     title: 'Ƙαnnα 𝗕𝗢𝗧',
     body: wm,
     thumbnail: thumb,
