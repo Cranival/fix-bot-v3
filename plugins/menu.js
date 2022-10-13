@@ -29,19 +29,6 @@ ${emot}│☂︎ *Tanggal:* %week %weton
 ${emot}│☂︎ *Date:* %date
 ${emot}│☂︎ *Tanggal Islam:* %dateIslamic
 ┬│☂︎ *Waktu:* %time
-│╰────────────────···
-┠─────═[ INFO BOT ]═─────⋆
-│╭────────────────···
-┴│☂︎ *Nama Bot:* %me
-${emot}│☂︎ *Mode:* %mode
-${emot}│☂︎ *Prefix:* [ *%_p* ]
-${emot}│☂︎ *Baileys:* Multi Device
-${emot}│☂︎ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-${emot}│☂︎ *Platform:* %platform
-${emot}│☂︎ *Type:* Node.Js
-${emot}│☂︎ *Uptime:* %muptime
-┬│☂︎ *Database:* %rtotalreg dari %totalreg
-│╰────────────────···
 ╰──────────═┅═──────────
 
 ⃝▣──「 *INFO CMD* 」───⬣
@@ -194,9 +181,6 @@ if (teks == 'menbalas') tags = {
     'host': 'Host',
     'advanced': 'Advanced'
   }
- if (teks == 'nsfw') tags = {
-    'nsfw': 'Nsfw'
-  }
   if (teks == 'nocategory') tags = {
     '': 'No Category'
   }
@@ -300,7 +284,6 @@ const sections = [
         {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
         {title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
         {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-        {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagne"},
         {title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
         {title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
         {title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
@@ -630,7 +613,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/WH-MODS-BOT/'
+                        url: 'https://github.com/Cranival'
                     }
                 },
                 {
